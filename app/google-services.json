@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "335995820333",
+    "firebase_url": "https://gymchart2.firebaseio.com",
+    "project_id": "gymchart2",
+    "storage_bucket": "gymchart2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335995820333:android:6d9e9994c33f554c",
+        "android_client_info": {
+          "package_name": "gymchart.felipepereira.com.gymchart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335995820333-30prdfcoqrfgdqq0ub0hbm97k6hfcs7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gymchart.felipepereira.com.gymchart",
+            "certificate_hash": "d13b06288fcb72a6cee3316fd56eb5d3fa529376"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDkrfAsLeJ92-rcP0MzYLjHKwTANbzw5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335995820333-57rb738jmh1fhqhjiqrbm5j7r50viv97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

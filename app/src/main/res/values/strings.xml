@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">GymChart</string>
+
+    <string-array name="exercise_type">
+        <item>Abdominals</item>
+        <item>Back</item>
+        <item>Chest</item>
+        <item>Legs</item>
+        <item>Shoulders</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+    </string-array>
+
+    <string-array name="exercise_abdominals">
+
+        <item>Crunch</item>
+        <item>Resisted Crunch</item>
+        <item>Inclined Crunch with Feet Attached</item>
+        <item>Crunch with Leg Curl</item>
+        <item>Sit-Up with Feet Attached</item>
+        <item>Sit-Up with Cable</item>
+        <item>Trunk Rotation</item>
+        <item>Jacknife Sit-Up</item>
+        <item>High Leg Pull-In</item>
+        <item>Low Leg Pull-In</item>
+        <item>Side Plank</item>
+    </string-array>
+    <string-array name="exercise_back">
+        <item>Hyperextension</item>
+        <item>Row</item>
+        <item>Crossover ROw</item>
+        <item>Kneeling Row</item>
+        <item>Row with Hyperextension</item>
+        <item>Back Fly</item>
+        <item>Rotating Back Fly</item>
+        <item>Prone Back Fly</item>
+        <item>Back Fly with Leg Curl</item>
+        <item>Lateral Pulldown</item>
+        <item>Pulldown with Squat with Elbows Flexed</item>
+        <item>Lateral Pulldown with Squat</item>
+        <item>Pull-Up</item>
+    </string-array>
+    <string-array name="exercise_chest">
+        <item>Chest Press</item>
+        <item>Close-Grip Chest Press</item>
+        <item>Wide-Grip Chest Press</item>
+        <item>Incline Push Up</item>
+        <item>Chest Fly</item>
+        <item>Incline Chest Fly</item>
+        <item>Decline Chest Fly</item>
+        <item>Lateral Chest Fly</item>
+        <item>Pullover</item>
+        <item>Pullover with Crunch</item>
+        <item>Pullover with Twisting Crunch</item>
+        <item>Pullover with Squat</item>
+        <item>Single Leg Pullover with Squat</item>
+    </string-array>
+    <string-array name="exercise_legs">
+        <item>Leg Curl</item>
+        <item>Reverse Leg Curl</item>
+        <item>Squat</item>
+        <item>Wide Squat</item>
+        <item>Single-Leg Squat</item>
+        <item>Single-Leg Squat On Side</item>
+        <item>Single-Leg Squat Kneeling</item>
+        <item>Jumping Squat</item>
+        <item>Twisting Squat</item>
+        <item>Jumping and Twisting Squat</item>
+        <item>Front Lunge</item>
+        <item>Hip Extension with Knee Stabilized</item>
+        <item>Hip Abduction</item>
+        <item>Hip Adduction</item>
+        <item>Calf Raise</item>
+    </string-array>
+    <string-array name="exercise_shoulder">
+        <item>Shoulder Press</item>
+        <item>Upright Row</item>
+        <item>Upright Row with Hyperextension</item>
+        <item>Upright Row with Leg Curl</item>
+        <item>Lateral Deltoid Raise</item>
+        <item>Front Deltoid Raise</item>
+        <item>Wide Grip Front Deltoid Raise</item>
+        <item>Front Deltoid Raise with Supination Grip</item>
+        <item>Lying Front Deltoid Raise</item>
+        <item>Front Deltoid Raise with Leg Curl</item>
+        <item>Shoulder Extension</item>
+        <item>Shoulder Extension with Hyperextension</item>
+        <item>Shoulder Extension with Leg Curl</item>
+        <item>Lateral Arm Pull</item>
+    </string-array>
+    <string-array name="exercise_biceps">
+        <item>Biceps Curl</item>
+        <item>Lateral Single-Arm Biceps Curl</item>
+        <item>Lying Biceps Curl</item>
+        <item>Biceps Curl with Crunching</item>
+        <item>Biceps Curl with Hyperextension</item>
+        <item>Biceps Curl with Leg Curl</item>
+        <item>Chin-Up</item>
+    </string-array>
+    <string-array name="exercise_triceps">
+        <item>Triceps Extension</item>
+        <item>Prones Triceps Extension</item>
+        <item>Kneeling Triceps Extension</item>
+        <item>Lateral Single-Arm Triceps Extension</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="CreateDB">CREATE TABLE UserExercise (ID INTEGER PRIMARY KEY AUTOINCREMENT, type TEXT, name TEXT);</string>
+</resources>
